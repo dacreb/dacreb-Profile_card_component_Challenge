@@ -1,0 +1,146 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    /** 1rem = 10px **/
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+
+/* Background */
+
+body {
+    background-color: hsl(185, 75%, 39%);
+    max-width: 100%;
+    font-family: 'Kumbh Sans';
+}
+
+.banner {
+    min-height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+
+.container_img_top {
+    position: fixed;
+    overflow: hidden;
+    top: -75%;
+    right: 50%;
+    border-radius: 100%;
+    background-image: linear-gradient( to center, #1f7568, #0a6379);
+}
+
+.container_img_bottom {
+    position: fixed;
+    overflow: hidden;
+    bottom: -75%;
+    left: 50%;
+    border-radius: 100%;
+    background-image: linear-gradient( to center, #1f7568, #0a6379);
+}
+
+.cf::after {
+    content: '';
+    clear: both;
+    display: block;
+}
+
+
+/* card */
+
+.cont {
+    max-width: 35rem;
+    margin: auto;
+}
+
+.card {
+    background-color: white;
+    width: 35rem;
+    max-height: 37rem;
+    text-align: center;
+    position: absolute;
+    top: 0rem;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    border-radius: 1.5rem;
+}
+
+.imgcard img {
+    border-radius: 1.5rem 1.5rem 0 0;
+}
+
+.photo img {
+    border-radius: 100%;
+    border: .5rem solid white;
+    margin: -5.7rem auto 0 auto;
+}
+
+.data-user h1 {
+    font-weight: 700;
+    margin-top: 3rem;
+}
+
+.data-user h1 span {
+    font-weight: 400;
+    color: hsl(227, 10%, 46%);
+}
+
+.data-user p {
+    font-size: 1.6rem;
+    color: hsl(227, 10%, 46%);
+    margin-bottom: 2rem;
+}
+
+.data-user {
+    border-bottom: .1rem solid hsla(0, 0%, 59%, 0.473);
+}
+
+.stats {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.oreder {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 3rem;
+}
+
+.oreder li {
+    flex-basis: calc( 33.3% - 2rem);
+    padding: 0 1rem 1rem 1rem;
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+.oreder li p {
+    margin: 0;
+    padding-top: .5rem;
+    color: hsl(227, 10%, 46%);
+}
+
+.oreder li h2 {
+    margin: 0;
+    padding-top: 1rem;
+}
+
+
+/* att */
+
+.attribution {
+    display: block;
+    font-size: 1.1rem;
+    text-align: center;
+    font-family: 'Kumbh Sans';
+    font-weight: 400;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
