@@ -83,7 +83,7 @@ body {
 
 .data-user h1 {
     font-weight: 700;
-    margin-top: 3rem;
+    margin-top: 1.5rem;
 }
 
 .data-user h1 span {
@@ -109,23 +109,18 @@ body {
 .oreder {
     display: flex;
     justify-content: space-between;
-    padding: 0 3rem;
-}
-
-.oreder li {
-    flex-basis: calc( 33.3% - 2rem);
-    padding: 0 1rem 1rem 1rem;
+    padding: 1rem 3rem;
     list-style: none;
     font-size: 1.3rem;
 }
 
-.oreder li p {
+.oreder p {
     margin: 0;
     padding-top: .5rem;
     color: hsl(227, 10%, 46%);
 }
 
-.oreder li h2 {
+.oreder h2 {
     margin: 0;
     padding-top: 1rem;
 }
